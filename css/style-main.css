@@ -7198,3 +7198,23 @@ blockquote p {
     font-weight:bolder;
     color:#000;
 }
+@media (max-width: 991px) {
+    #home {
+      display: none;
+    }
+  }
+  @media (min-width: 992px) {
+    #home1 {
+      display: none;
+    }
+  }
+  @media (max-width: 767px) {
+    .modal-title {
+      font-size: 18px; /* Adjust font size for mobile */
+      font-weight: 800;
+      color: #F2184F;
+      padding-left: 95px; /* Adjust padding for mobile */
+      padding-top: 5px; /* Adjust padding for mobile */
+      margin-bottom: 0px;
+    }
+  }
