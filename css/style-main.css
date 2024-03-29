@@ -7186,7 +7186,7 @@ blockquote p {
     font-weight: 800;
     font-size: 25px;
     color:#F2184F;
-   padding-left: 180px;
+   padding-left: 300px;
    padding-top:10px;
     margin-bottom: 0px;
 }
@@ -7213,8 +7213,32 @@ blockquote p {
       font-size: 18px; /* Adjust font size for mobile */
       font-weight: 800;
       color: #F2184F;
-      padding-left: 95px; /* Adjust padding for mobile */
+      padding-left: 25px; /* Adjust padding for mobile */
       padding-top: 5px; /* Adjust padding for mobile */
       margin-bottom: 0px;
     }
+  }
+  @media (max-width: 768px) {
+    .modal-title {
+      font-size: 18px; /* Adjust font size for mobile */
+      font-weight: 800;
+      color: #F2184F;
+      padding-left:40px;
+      padding-top: 5px; /* Adjust padding for mobile */
+      margin-bottom: 0px;
+    }
+  }
+  @media (width: 768px) {
+    .modal-title {
+      font-size: 18px; /* Adjust font size for mobile */
+      font-weight: 800;
+      color: #F2184F;
+      padding-left:40px;
+      padding-top: 5px; /* Adjust padding for mobile */
+      margin-bottom: 0px;
+    }
+  }
+  .text1{
+    font-size:x-large;
+    font-weight:bolder;
   }

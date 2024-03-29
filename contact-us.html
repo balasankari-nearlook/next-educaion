@@ -186,8 +186,8 @@
                 </li>
                 <li><a href="entrance-exam.html">Entrance Exams</a>
                 </li>
-                <li><a href="#" data-toggle="modal" data-target="#exampleModal">Registrations</a>
-                </li>
+                <!-- <li><a href="#" data-toggle="modal" data-target="#exampleModal">Registrations</a>
+                </li> -->
                 <li class="active"><a href="contact-us.html">Contact Us</a>
                 </li>
 
@@ -196,7 +196,7 @@
                 <li>
 
                   <a class="btn btn-colored btn-flat bg-theme-color-2 text-white font-14 bs-modal-ajax-load mt-0 p-25 pr-15 pl-15"
-                    data-toggle="modal" data-target="#exampleModal">Book Now</a>
+                    data-toggle="modal" data-target="#exampleModal">Free Career Guidance</a>
 
                 </li>
               </ul>
@@ -470,137 +470,145 @@
 
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
       aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <h5 class="modal-title" id="exampleModalLabel">Registration Form</h5>
-
+            <h5 class="modal-title" id="exampleModalLabel">Free Career Guidance Form</h5>
+            
           </div>
           <div class="modal-body">
             <div>
               <div class="border-1px p-30 mb-0">
-                <h3 class="text-theme-colored mt-0 pt-5">Register Now</h3>
-                <hr>
-
-                <form id="job_apply_form" name="job_apply_form"
-                  action="https://api.web3forms.com/submit" method="post"
-                  enctype="multipart/form-data" novalidate="novalidate">
-                  <input type="hidden" name="access_key" value="40824488-3d32-4136-9ec6-22f0db8044d6">
-                  <div class="row">
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <label>Name <small>*</small></label>
-                        <input name="form_name" type="text" placeholder="Enter Name" required="" class="form-control"
-                          aria-required="true" >
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <label>Email <small>*</small></label>
-                        <input name="form_email" class="form-control required email" type="email"
-                          placeholder="Enter Email" aria-required="true" required="">
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <label>Mobile Number <small>*</small></label>
-                        <input name="form_Phone" class="form-control required tel" type="tel"
-                          placeholder="Enter Mobile Number" aria-required="true"required="">
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <label>School <small>*</small></label>
-                        <input name="form_school" class="form-control required text" type="text"
-                          placeholder="Enter School Name" aria-required="true">
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <label>District<small>*</small></label>
-                        <select name="form_district" class="form-control required" aria-required="true">
-
-                          <option value="_none">- Select a value -</option>
-                          <option value="Chengalpattu">Chengalpattu</option>
-                          <option value="Chennai">Chennai</option>
-                          <option value="Coimbatore">Coimbatore</option>
-                          <option value="Cuddalore">Cuddalore</option>
-                          <option value="Dharmapuri">Dharmapuri</option>
-                          <option value="Dindigul">Dindigul</option>
-                          <option value="Erode">Erode</option>
-                          <option value="Kallakurichi">Kallakurichi</option>
-                          <option value="Kancheepuram">Kancheepuram</option>
-                          <option value="Karur">Karur</option>
-                          <option value="Krishnagiri">Krishnagiri</option>
-                          <option value="Madurai">Madurai</option>
-                          <option value="Mayiladuthurai">Mayiladuthurai</option>
-                          <option value="Nagapattinam">Nagapattinam</option>
-                          <option value="Kanniyakumari">Kanniyakumari</option>
-                          <option value="Namakkal">Namakkal</option>
-                          <option value="Perambalur">Perambalur</option>
-                          <option value="Pudukottai">Pudukottai</option>
-                          <option value="Ramanathapuram">Ramanathapuram</option>
-                          <option value="Ranipet">Ranipet</option>
-                          <option value="Salem">Salem</option>
-                          <option value="Sivagangai">Sivagangai</option>
-                          <option value="Tenkasi">Tenkasi</option>
-                          <option value="Thanjavur">Thanjavur</option>
-                          <option value="Theni">Theni</option>
-                          <option value="Thiruvallur">Thiruvallur</option>
-                          <option value="Thiruvarur">Thiruvarur</option>
-                          <option value="Thoothukudi">Thoothukudi</option>
-                          <option value="Trichirappalli">Trichirappalli</option>
-                          <option value="Thirunelveli">Thirunelveli</option>
-                          <option value="Tirupathur">Tirupathur</option>
-                          <option value="Tiruppur">Tiruppur</option>
-                          <option value="Tiruvannamalai">Tiruvannamalai</option>
-                          <option value="The Nilgiris">The Nilgiris</option>
-                          <option value="Udagamandalam">Udagamandalam</option>
-                          <option value="Vellore">Vellore</option>
-                          <option value="Viluppuram">Viluppuram</option>
-                          <option value="Virudhunagar">Virudhunagar</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <label>City<small>*</small></label>
-                        <input name="form_city" class="form-control required text" type="text"
-                          placeholder="Enter City Name" aria-required="true"required>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <label>Preferred College<small>*</small></label>
-                        <input name="form_college" class="form-control required text" type="text"
-                          placeholder="Enter College Name" aria-required="true"required>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <label>Preferred Course<small>*</small></label>
-                        <input name="form_course" class="form-control required text" type="text"
-                          placeholder="Enter Course" aria-required="true" required>
-                      </div>
-                    </div>
-                    
+                <!-- <h3 class="text-theme-colored mt-0 pt-5">Register Now</h3> -->
+                
+                
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <img src="images/CAREER.jpg" class="img-fluid mb-15" >
                   </div>
-
-                  <div class="form-group">
-                    <label>Message <small>*</small></label>
-                    <textarea name="form_message" rows="5" class="form-control required text"
-                      placeholder="Your message here!" aria-required="true"></textarea>
+                  <div class="col">
+                    <form id="job_apply_form" name="job_apply_form"
+                action="https://api.web3forms.com/submit" method="post"
+                enctype="multipart/form-data" novalidate="novalidate">
+                <input type="hidden" name="access_key" value="40824488-3d32-4136-9ec6-22f0db8044d6">
+                <div class="row pt-10">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label>Name <small>*</small></label>
+                      <input name="form_name" type="text" placeholder="Enter Name" required="" class="form-control"
+                        aria-required="true" >
+                    </div>
                   </div>
-
-                  <div class="form-group">
-                    <input name="form_botcheck" class="form-control" type="hidden" value="">
-                    <button type="submit" class="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10"
-                      data-loading-text="Please wait...">Register Now</button>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label>Email <small>*</small></label>
+                      <input name="form_email" class="form-control required email" type="email"
+                        placeholder="Enter Email" aria-required="true" required="">
+                    </div>
                   </div>
-                </form>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label>Mobile Number <small>*</small></label>
+                      <input name="form_Phone" class="form-control required tel" type="tel"
+                        placeholder="Enter Mobile Number" aria-required="true"required="">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label>School <small>*</small></label>
+                      <input name="form_school" class="form-control required text" type="text"
+                        placeholder="Enter School Name" aria-required="true">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label>District<small>*</small></label>
+                      <select name="form_district" class="form-control required" aria-required="true">
+
+                        <option value="_none">- Select a value -</option>
+                        <option value="Chengalpattu">Chengalpattu</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Coimbatore">Coimbatore</option>
+                        <option value="Cuddalore">Cuddalore</option>
+                        <option value="Dharmapuri">Dharmapuri</option>
+                        <option value="Dindigul">Dindigul</option>
+                        <option value="Erode">Erode</option>
+                        <option value="Kallakurichi">Kallakurichi</option>
+                        <option value="Kancheepuram">Kancheepuram</option>
+                        <option value="Karur">Karur</option>
+                        <option value="Krishnagiri">Krishnagiri</option>
+                        <option value="Madurai">Madurai</option>
+                        <option value="Mayiladuthurai">Mayiladuthurai</option>
+                        <option value="Nagapattinam">Nagapattinam</option>
+                        <option value="Kanniyakumari">Kanniyakumari</option>
+                        <option value="Namakkal">Namakkal</option>
+                        <option value="Perambalur">Perambalur</option>
+                        <option value="Pudukottai">Pudukottai</option>
+                        <option value="Ramanathapuram">Ramanathapuram</option>
+                        <option value="Ranipet">Ranipet</option>
+                        <option value="Salem">Salem</option>
+                        <option value="Sivagangai">Sivagangai</option>
+                        <option value="Tenkasi">Tenkasi</option>
+                        <option value="Thanjavur">Thanjavur</option>
+                        <option value="Theni">Theni</option>
+                        <option value="Thiruvallur">Thiruvallur</option>
+                        <option value="Thiruvarur">Thiruvarur</option>
+                        <option value="Thoothukudi">Thoothukudi</option>
+                        <option value="Trichirappalli">Trichirappalli</option>
+                        <option value="Thirunelveli">Thirunelveli</option>
+                        <option value="Tirupathur">Tirupathur</option>
+                        <option value="Tiruppur">Tiruppur</option>
+                        <option value="Tiruvannamalai">Tiruvannamalai</option>
+                        <option value="The Nilgiris">The Nilgiris</option>
+                        <option value="Udagamandalam">Udagamandalam</option>
+                        <option value="Vellore">Vellore</option>
+                        <option value="Viluppuram">Viluppuram</option>
+                        <option value="Virudhunagar">Virudhunagar</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label>City<small>*</small></label>
+                      <input name="form_city" class="form-control required text" type="text"
+                        placeholder="Enter City Name" aria-required="true"required>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label>Preferred College<small>*</small></label>
+                      <input name="form_college" class="form-control required text" type="text"
+                        placeholder="Enter College Name" aria-required="true"required>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label>Preferred Course<small>*</small></label>
+                      <input name="form_course" class="form-control required text" type="text"
+                        placeholder="Enter Course" aria-required="true" required>
+                    </div>
+                  </div>
+                  
+                </div>
+
+                <div class="form-group">
+                  <label>Message <small>*</small></label>
+                  <textarea name="form_message" rows="5" class="form-control required text"
+                    placeholder="Your message here!" aria-required="true"></textarea>
+                </div>
+
+                <div class="form-group">
+                  <input name="form_botcheck" class="form-control" type="hidden" value="">
+                  <button type="submit" class="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10"
+                    data-loading-text="Please wait...">Register Now</button>
+                </div>
+              </form>
+                  </div>
+                </div>
+
 
                 <script type="text/javascript">
                   $("#job_apply_form").validate({
@@ -699,7 +707,7 @@
               <h5 class="widget-title line-bottom-theme-colored-2">Quick Contact</h5>
               <ul class="list list-border">
                 <li><a href="tel:919442557269">91-9442557269</a></li>
-                <li><a href="#">info@nextedu.co.in</a></li>
+                <li><a href="mailto:infowhatnextedu@gmail.com">infowhatnextedu@gmail.com</a></li>
                 <li><a href="#" class="lineheight-20">2F5G+RRF, Sungam Rd, NGO Colony, Suppan Ragavan Colony, NRT Nagar,
                     Theni, Tamil Nadu 625531</a></li>
               </ul>
